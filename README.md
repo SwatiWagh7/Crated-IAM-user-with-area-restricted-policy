@@ -40,7 +40,7 @@ You can create a user either from the AWS Management Console or via AWS CLI
 -	This will deny all other regions accept North Virginia (us-east-1)
 -	Give policy name
 -	Create policy
- 
+ <img width="1001" height="300" alt="image" src="https://github.com/user-attachments/assets/91a46d70-0a01-410d-91c1-ac30e6a79e4e" />
 
 3.	Now attach this policy to IAM use you have created:
 -	Go to Users
@@ -53,5 +53,6 @@ You can create a user either from the AWS Management Console or via AWS CLI
 -	Click add permissions
 -	Policy now applied to user you have created
 
- 
+ <img width="1060" height="458" alt="image" src="https://github.com/user-attachments/assets/0192362f-c3ef-44ed-bfbb-b368f4ab218c" />
+
 

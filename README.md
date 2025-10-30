@@ -38,6 +38,7 @@ You can create a user either from the AWS Management Console or via AWS CLI
   ]
 }
 
+
 -	This will deny all other regions accept North Virginia (us-east-1)
 -	Give policy name
 -	Create policy

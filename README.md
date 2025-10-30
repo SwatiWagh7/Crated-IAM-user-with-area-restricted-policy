@@ -23,22 +23,44 @@ You can create a user either from the AWS Management Console or via AWS CLI
   "Version": "2012-10-17",
   "Statement": [
     {
-      "Sid": "DenyAllRegionsExceptNVirginia",
-      "Effect": "Deny",
-      "NotAction": [
-        "iam:*",
-        "organizations:*",
-        "account:*"
-      ],
+      "Sid": "AllowAllInUsEast1",
+      "Effect": "Allow",
+      "Action": "*",
       "Resource": "*",
       "Condition": {
-        "StringNotEquals": {
+        "StringEquals": {
+          "aws:RequestedRegion": "us-east-1"
+        }
+      }
+    },
+    {
+      "Sid": "AllowGlobalServices",
+      "Effect": "Allow",
+      "Action": [
+        "iam:*",
+        "organizations:*",
+        "cloudfront:*",
+        "route53:*",
+        "support:*",
+        "waf:*",
+        "account:*"
+      ],
+      "Resource": "*"
+    },
+    {
+      "Sid": "DenyOutsideUsEast1",
+      "Effect": "Deny",
+      "Action": "*",
+      "Resource": "*",
+      "Condition": {
+        "StringNotEqualsIfExists": {
           "aws:RequestedRegion": "us-east-1"
         }
       }
     }
   ]
 }
+ 
 
 ```
 

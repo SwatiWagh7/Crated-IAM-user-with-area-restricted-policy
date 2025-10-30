@@ -1,5 +1,5 @@
-# Create IAM user with one policy that it should be accessible only for North Virginia (Region) with Json.
-Create IAM user with one policy that it should be accessible only for North Virginia (Region) with Json.
+# Create an IAM User Accessible Only in the North Virginia Region via JSON Policy.
+Create an IAM User Accessible Only in the North Virginia Region via JSON Policy.
 First, we will create IAM User:
 You can create a user either from the AWS Management Console or via AWS CLI
 1.	Create IAM user:

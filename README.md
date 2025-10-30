@@ -14,7 +14,7 @@ You can create a user either from the AWS Management Console or via AWS CLI
 -	Go to Policies
 -	Create policy
 -	Choose JSON
--	Paste below code: 
+
 
 ### Paste the below code:
 
@@ -40,6 +40,7 @@ You can create a user either from the AWS Management Console or via AWS CLI
   ]
 }
 
+```
 
 -	This will deny all other regions accept North Virginia (us-east-1)
 -	Give policy name

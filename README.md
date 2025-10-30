@@ -1,4 +1,4 @@
-# Create an IAM User Restricted to the North Virginia (us-east-1) Region Using a JSON Policy.
+ # Create an IAM User Restricted to the North Virginia (us-east-1) Region Using a JSON Policy.
 
 First, we will create IAM User:
 You can create a user either from the AWS Management Console or via AWS CLI
@@ -8,7 +8,7 @@ You can create a user either from the AWS Management Console or via AWS CLI
 -	Enter user name
 -	Click Next
 -	Create user
- 
+ <img width="808" height="308" alt="image" src="https://github.com/user-attachments/assets/fddeb371-5dcd-473d-b352-305afff69037" />
 
 2.	Now Create policy for North Virginia Region (us-east-1)
 -	Go to Policies

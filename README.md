@@ -16,6 +16,7 @@ You can create a user either from the AWS Management Console or via AWS CLI
 -	Choose JSON
 -	Paste below code: 
 
+'''json
 {
   "Version": "2012-10-17",
   "Statement": [

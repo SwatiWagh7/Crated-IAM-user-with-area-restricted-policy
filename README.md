@@ -48,7 +48,7 @@ You can create a user either from the AWS Management Console or via AWS CLI
 
  <img width="1001" height="300" alt="image" src="https://github.com/user-attachments/assets/91a46d70-0a01-410d-91c1-ac30e6a79e4e" />
 
-3.	Now attach this policy to IAM use you have created:
+3.	Now attach this policy to IAM user you have created:
 -	Go to Users
 -	Choose user you have created
 -	Go to permissions
